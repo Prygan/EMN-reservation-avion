@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26014.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{DDA1B68D-0B53-4853-A177-3232743A6489}"
 EndProject
@@ -11,8 +11,50 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{1A4390BC-7870-4B35-9737-A47BB16C9D5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSHotel", "WSHotel\WSHotel.csproj", "{8C560579-F42B-4375-83D9-E2B31856F390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSHotels", "WSHotels\WSHotels.csproj", "{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C560579-F42B-4375-83D9-E2B31856F390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C560579-F42B-4375-83D9-E2B31856F390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C560579-F42B-4375-83D9-E2B31856F390}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8C560579-F42B-4375-83D9-E2B31856F390}.Debug|x64.Build.0 = Debug|Any CPU
+		{8C560579-F42B-4375-83D9-E2B31856F390}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8C560579-F42B-4375-83D9-E2B31856F390}.Debug|x86.Build.0 = Debug|Any CPU
+		{8C560579-F42B-4375-83D9-E2B31856F390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C560579-F42B-4375-83D9-E2B31856F390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C560579-F42B-4375-83D9-E2B31856F390}.Release|x64.ActiveCfg = Release|Any CPU
+		{8C560579-F42B-4375-83D9-E2B31856F390}.Release|x64.Build.0 = Release|Any CPU
+		{8C560579-F42B-4375-83D9-E2B31856F390}.Release|x86.ActiveCfg = Release|Any CPU
+		{8C560579-F42B-4375-83D9-E2B31856F390}.Release|x86.Build.0 = Release|Any CPU
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Debug|x64.ActiveCfg = Debug|x64
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Debug|x64.Build.0 = Debug|x64
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Debug|x86.ActiveCfg = Debug|x86
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Debug|x86.Build.0 = Debug|x86
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Release|x64.ActiveCfg = Release|x64
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Release|x64.Build.0 = Release|x64
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Release|x86.ActiveCfg = Release|x86
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C560579-F42B-4375-83D9-E2B31856F390} = {ADD9B691-4FEC-47CC-9949-25AEED6D9B81}
+		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013} = {ADD9B691-4FEC-47CC-9949-25AEED6D9B81}
 	EndGlobalSection
 EndGlobal
