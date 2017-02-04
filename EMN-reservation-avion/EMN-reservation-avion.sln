@@ -11,9 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{1A4390BC-7870-4B35-9737-A47BB16C9D5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSHotel", "WSHotel\WSHotel.csproj", "{8C560579-F42B-4375-83D9-E2B31856F390}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSHotels", "WSHotels\WSHotels.csproj", "{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSHotel", "WSHotels\WSHotel.csproj", "{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,18 +23,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8C560579-F42B-4375-83D9-E2B31856F390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C560579-F42B-4375-83D9-E2B31856F390}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C560579-F42B-4375-83D9-E2B31856F390}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{8C560579-F42B-4375-83D9-E2B31856F390}.Debug|x64.Build.0 = Debug|Any CPU
-		{8C560579-F42B-4375-83D9-E2B31856F390}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{8C560579-F42B-4375-83D9-E2B31856F390}.Debug|x86.Build.0 = Debug|Any CPU
-		{8C560579-F42B-4375-83D9-E2B31856F390}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C560579-F42B-4375-83D9-E2B31856F390}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C560579-F42B-4375-83D9-E2B31856F390}.Release|x64.ActiveCfg = Release|Any CPU
-		{8C560579-F42B-4375-83D9-E2B31856F390}.Release|x64.Build.0 = Release|Any CPU
-		{8C560579-F42B-4375-83D9-E2B31856F390}.Release|x86.ActiveCfg = Release|Any CPU
-		{8C560579-F42B-4375-83D9-E2B31856F390}.Release|x86.Build.0 = Release|Any CPU
 		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013}.Debug|x64.ActiveCfg = Debug|x64
@@ -54,7 +40,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{8C560579-F42B-4375-83D9-E2B31856F390} = {ADD9B691-4FEC-47CC-9949-25AEED6D9B81}
 		{EE2E5D2C-611C-4AA8-88ED-383B5CB67013} = {ADD9B691-4FEC-47CC-9949-25AEED6D9B81}
 	EndGlobalSection
 EndGlobal

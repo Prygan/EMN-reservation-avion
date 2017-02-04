@@ -6,14 +6,23 @@ using Microsoft.AspNetCore.Mvc;
 using System.Data;
 using System.Data.SqlClient;
 using System.Collections;
+using System.Net.Http;
+using System.Net;
 
 namespace WSHotels.Controllers
 {
     public class Hotel
     {
         public int ID { get; set; }
-        public String ville { get; set; }
-        public String nom { get; set; }
+        public String Ville { get; set; }
+        public String Nom { get; set; }
+    }
+
+    public class Commande
+    {
+       // public int ID { get; set; }
+        public int Hotel { get; set; }
+        public String Client { get; set; }
     }
     [Route("api/[controller]")]
     public class HotelController : Controller
@@ -27,11 +36,6 @@ namespace WSHotels.Controllers
               MyC.Open();
               SqlCommand MyCom = new SqlCommand("select_hotels", MyC);
              MyCom.CommandType = CommandType.StoredProcedure;
-
-            /*  MyCom.Parameters.Add("@Montant", SqlDbType.Int);
-                  MyCom.Parameters["@Montant"].Value = Montant;
-                  MyCom.Parameters.Add("@Compte", SqlDbType.Int);
-                  MyCom.Parameters["@Compte"].Value = CD;*/
               IDataReader Reader = MyCom.ExecuteReader();
             List<Hotel> Hotels = new List<Hotel>();
             while (Reader.Read())
@@ -39,7 +43,7 @@ namespace WSHotels.Controllers
                 int IDRead = Reader.GetInt32(0);
                 String villeRead = Reader.GetString(1);
                 String nomRead = Reader.GetString(2);
-                Hotels.Add(new Hotel { ID = IDRead, ville = villeRead, nom = nomRead });
+                Hotels.Add(new Hotel { ID = IDRead, Ville = villeRead, Nom = nomRead });
             }
             MyCom.Dispose();
              MyC.Close();
@@ -55,10 +59,25 @@ namespace WSHotels.Controllers
             return null;
         }
 
-        // POST api/Hotels
-        [HttpPost]
-        public void Post([FromBody]Hotel Hotel)
+        // PUT api/Hotels
+        [HttpPut]
+        public void Put([FromBody]Commande Commande)
         {
+            SqlConnection MyC = new SqlConnection();
+            MyC.ConnectionString = "Data Source=FLORINECERCD9F9\\SQLEXPRESS;Initial Catalog=Hotel;Integrated Security = true";
+            MyC.Open();
+           
+            SqlCommand MyCom = new SqlCommand("insert_commande_hotel", MyC);
+           
+            MyCom.CommandType = CommandType.StoredProcedure;
+            MyCom.Parameters.Add("@HOTEL", SqlDbType.Int);
+            MyCom.Parameters["@HOTEL"].Value = Commande.Hotel;
+            MyCom.Parameters.Add("@CLIENT", SqlDbType.VarChar);
+            MyCom.Parameters["@CLIENT"].Value = Commande.Client;
+            MyCom.ExecuteNonQuery();
+
+            MyCom.Dispose();
+            MyC.Close();
         }
 
         // PUT api/Hotels/5
