@@ -1,0 +1,5 @@
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\DBVol\bin\Debug\DBVol.dll
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\DBVol\bin\Debug\DBVol.pdb
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\DBVol\obj\Debug\DBVol.csprojResolveAssemblyReference.cache
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\DBVol\obj\Debug\DBVol.dll
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\DBVol\obj\Debug\DBVol.pdb

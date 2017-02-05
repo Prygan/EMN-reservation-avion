@@ -1,0 +1,13 @@
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\bin\Debug\ReservationMSMQ.dll
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\bin\Debug\ReservationMSMQ.pdb
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\bin\Debug\MSMQ.dll
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\bin\Debug\Reservation.dll
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\bin\Debug\DBHotel.dll
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\bin\Debug\DBVol.dll
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\bin\Debug\MSMQ.pdb
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\bin\Debug\Reservation.pdb
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\bin\Debug\DBHotel.pdb
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\bin\Debug\DBVol.pdb
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\obj\Debug\ReservationMSMQ.csprojResolveAssemblyReference.cache
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\obj\Debug\ReservationMSMQ.dll
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\ReservationMSMQ\obj\Debug\ReservationMSMQ.pdb

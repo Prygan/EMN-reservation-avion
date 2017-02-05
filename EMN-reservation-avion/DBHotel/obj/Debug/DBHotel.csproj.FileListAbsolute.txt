@@ -1,0 +1,4 @@
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\DBHotel\bin\Debug\DBHotel.dll
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\DBHotel\bin\Debug\DBHotel.pdb
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\DBHotel\obj\Debug\DBHotel.dll
+C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\DBHotel\obj\Debug\DBHotel.pdb
