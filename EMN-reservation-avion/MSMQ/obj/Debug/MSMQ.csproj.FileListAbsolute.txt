@@ -1,5 +1,0 @@
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\MSMQ\bin\Debug\MSMQ.dll
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\MSMQ\bin\Debug\MSMQ.pdb
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\MSMQ\obj\Debug\MSMQ.csprojResolveAssemblyReference.cache
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\MSMQ\obj\Debug\MSMQ.dll
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\MSMQ\obj\Debug\MSMQ.pdb

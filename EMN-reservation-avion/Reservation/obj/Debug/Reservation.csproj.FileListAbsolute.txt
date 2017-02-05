@@ -1,9 +1,0 @@
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\Reservation\bin\Debug\Reservation.dll
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\Reservation\bin\Debug\Reservation.pdb
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\Reservation\bin\Debug\DBHotel.dll
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\Reservation\bin\Debug\DBVol.dll
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\Reservation\bin\Debug\DBHotel.pdb
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\Reservation\bin\Debug\DBVol.pdb
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\Reservation\obj\Debug\Reservation.csprojResolveAssemblyReference.cache
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\Reservation\obj\Debug\Reservation.dll
-C:\Users\Prygan\Source\Repos\EMN-reservation-avion\EMN-reservation-avion\Reservation\obj\Debug\Reservation.pdb
