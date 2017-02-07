@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Reservation";
+}
+
+@ViewBag.Test
+<div id="mainWrapper">
+    <form>
+        <div id="villeDepartDiv" class="form-group">
+            <label for="villeDepartSelect">Départ :</label>
+            <select id="villeDepartSelect" class="form-control">
+                <option>Paris</option>
+                <option>Nantes</option>
+            </select>
+        </div>
+        <div id="villeArriveeDiv" class="form-group">
+            <label for="villeArriveeSelect">Arrivée :</label>
+            <select id="villeArriveeSelect" class="form-control">
+                <option>Paris</option>
+                <option>Nantes</option>
+            </select>
+        </div>
+        <div id="volDiv" class="form-group">
+            <label for="volSelect">Vols :</label>
+            <select id="volSelect" class="form-control">
+                <option>Demain</option>
+                <option>Hier</option>
+            </select>
+        </div>
+        <div id="hotelDiv" class="form-group">
+            <label for="hotelSelect">Hôtel :</label>
+            <select id="hotelSelect" class="form-control">
+                <option>Chez moi</option>
+                <option>Chez toi</option>
+            </select>
+        </div>
+        <div id="clientDiv" class="form-group">
+            <label for="nomClient">Client :</label>
+            <input type="text" id="nomClient" class="form-control" placeholder="Client">
+        </div>
+        <button type="submit" class="btn btn-default">Je commande !</button>
+
+    </form>
+</div>
