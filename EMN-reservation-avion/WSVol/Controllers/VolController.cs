@@ -23,6 +23,7 @@ namespace WSVol.Controllers
         public int Vol { get; set; }
         public String Client { get; set; }
     }
+    [RoutePrefix("api/vol")]
     public class VolController : ApiController
     {
         // GET api/Vol

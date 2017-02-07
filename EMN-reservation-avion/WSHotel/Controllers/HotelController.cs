@@ -30,6 +30,7 @@ namespace WSHotel.Controllers
     {
         // GET api/Hotel
         [HttpGet]
+        [RoutePrefix("api/hotel")]
         public IEnumerable<Hotel> Get()
         {
             SqlConnection MyC = new SqlConnection();
