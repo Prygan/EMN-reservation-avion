@@ -20,9 +20,37 @@ namespace WebApplication2.Controllers
             var hotelResponse = client.GetAsync("http://localhost:52562/api/Hotel").Result;
             String hotelsXml = hotelResponse.Content.ReadAsStringAsync().Result;
             var villesOrigineResponse = client.GetAsync("http://localhost:53328/api/vol/VillesDepart").Result;
-            String villesOrigine = villesOrigineResponse.Content.ReadAsStringAsync().Result;
-            ViewBag.Test = villesOrigine;
+            Stream villesOrigineXml = villesOrigineResponse.Content.ReadAsStreamAsync().Result;
+            List<String> villesOrigine = parseXmlCities(villesOrigineXml);
+            ViewBag.villesOrigine = villesOrigine;
             return View();
+        }
+
+        private List<String> parseXmlCities(Stream xml)
+        {
+            List<String> l = new List<String>();
+            XmlReader xmlReader = XmlReader.Create(xml);
+            xmlReader.Read();
+            while (!xmlReader.EOF){
+                if ((xmlReader.NodeType == XmlNodeType.Element) && (xmlReader.Name == "string"))
+                    {
+                        l.Add(xmlReader.ReadElementContentAsString());
+                    }
+                else
+                {
+                    xmlReader.Read();
+                }
+            }
+            return l;
+        }
+
+        private List<String> getArriveesFromDepart(String villeDepart)
+        {
+            HttpClient client = new HttpClient();
+            client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/xml"));
+            var ArriveeResponse = client.GetAsync("http://localhost:53328/api/vol/VillesArrivee/" + villeDepart).Result;
+            Stream ArriveesXml = ArriveeResponse.Content.ReadAsStreamAsync().Result;
+            return parseXmlCities(ArriveesXml);
         }
 
         private List<String> parseXmlHotels(String xml)

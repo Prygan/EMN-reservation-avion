@@ -1,16 +1,14 @@
 ﻿@{
     ViewData["Title"] = "Reservation";
+    SelectList listeVillesDepart = new SelectList(ViewBag.villesOrigine);
+    ViewBag.villesOrigine = listeVillesDepart;
 }
 
-@ViewBag.Test
 <div id="mainWrapper">
     <form>
         <div id="villeDepartDiv" class="form-group">
             <label for="villeDepartSelect">Départ :</label>
-            <select id="villeDepartSelect" class="form-control">
-                <option>Paris</option>
-                <option>Nantes</option>
-            </select>
+            @Html.DropDownList("villesOrigine", ViewBag.villesOrigine as SelectList, new { @class = "form-control",  onchange = @"getArriveesFromDepart" })
         </div>
         <div id="villeArriveeDiv" class="form-group">
             <label for="villeArriveeSelect">Arrivée :</label>
